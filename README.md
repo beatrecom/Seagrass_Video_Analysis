@@ -12,6 +12,7 @@ How It Works (Simple Steps)
 5.	The result: a system that helps scientists rapidly process video and link it directly to acoustic signals.
  
 Why This Matters
+
 •	Faster: Reduces the need for frame-by-frame manual video review
 •	Smarter: Trains sonar models with real-world visuals, improving accuracy
 •	Scalable: Enables broader habitat classification efforts with AI
