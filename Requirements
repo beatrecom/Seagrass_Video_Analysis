@@ -1,0 +1,10 @@
+jupyterlab
+notebook
+matplotlib
+ipympl
+ipywidgets
+numpy
+pandas
+pillow
+moviepy>=1.0.0
+imageio-ffmpeg
