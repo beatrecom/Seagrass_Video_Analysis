@@ -1,5 +1,4 @@
-# Seeing the Seafloor Smarter  
-## Using AI to Classify Seagrass from ASV Video
+# Seagrass Video and Image Recognition 
 
 ### Expanded Summary  
 As part of a COMIT-supported research effort, Bea Combs-Hintze has developed an image-recognition pipeline that began with a training database. The goal is to transform hours of underwater video footage from autonomous surface vessels (ASVs) into searchable, structured seagrass data.
