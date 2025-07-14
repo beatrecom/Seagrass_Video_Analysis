@@ -1,7 +1,9 @@
 # Seagrass Video and Image Recognition 
+### Bea Combs-Hintze, Jeromy Parmar, Lillian Ring, Peter Urban
+
 
 ### Expanded Summary  
-As part of a COMIT-supported research effort, Bea Combs-Hintze has developed an image-recognition pipeline that began with a training database. The goal is to transform hours of underwater video footage from autonomous surface vessels (ASVs) into searchable, structured seagrass data.
+As part of a COMIT-supported research effort, we developed an image-recognition pipeline that began with a training database. The goal is to transform hours of underwater video footage from autonomous surface vessels (ASVs) into searchable, structured seagrass data.
 
 - **Habitat Features Identified**  
   - Seagrass presence  
@@ -16,7 +18,7 @@ As part of a COMIT-supported research effort, Bea Combs-Hintze has developed an 
 
 ### How It Works  
 1. **Data Collection**  
-   ASV surveys gather sonar and video in shallow coastal zones. Along with potentially other environmental data like DO and PAR. 
+   ASV surveys gather sonar and video in shallow coastal areas. Along with potentially other environmental data like *Dissolved Oxygen* and *Photosynthetically Active Radiation*
 2. **Frame Extraction & Annotation**  
    Video is broken into still frames, randomly but methodically by humans, each representing a "unique" habitat, these still frames are annotated using seagrass ID guides and expert advice. Time stamp and other feature data are recorded  
 3. **Database Building**  
