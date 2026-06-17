@@ -7,16 +7,15 @@ As part of a COMIT-supported research effort, we developed an image-recognition 
 
 - **Habitat Features Identified**  
   - Seagrass presence  
-  - Species type (e.g., *Thalassia*, *Syringodium*, *Halodule*)  
+  - Species type (e.g., *Thalassia*, *Syringodium*)  
   - Canopy density  
-  - Structural complexity  
 - **Data Fusion**  
   - Video frames are georeferenced and time-synced with acoustic sonar data where possible (e.g., multibeam water column data)  
   - Enables visual confirmation and sonar-based prediction of seagrass structures  
 
 ---
 
-### How It Works  
+### How it works
 1. **Data Collection**  
    ASV surveys gather sonar and video in shallow coastal areas. Along with potentially other environmental data like *Dissolved Oxygen* and *Photosynthetically Active Radiation*
 2. **Frame Extraction & Annotation**  
@@ -33,21 +32,15 @@ As part of a COMIT-supported research effort, we developed an image-recognition 
 
 ---
 
-### Why This Matters  
-- **Faster**  
-  Cuts down on tedious, frame-by-frame manual review.  
-- **Smarter**  
-  Improves accuracy of sonar models with real-world visual training data. This tool is tailored to our immediate needs for shallow water habitat mapping. 
-- **Scalable**  
-  Enables broader habitat classification across vast coastal areas.  
-- **Educational**  
-  Serves as a hands-on tool for interns and early-career scientists.
+### How this helps seagrass management and restoration
+- Cuts down on tedious, frame-by-frame manual review of habitat video footage 
+- Improves accuracy of sonar models with real-world visual training data... This tool is tailored to our immediate needs for shallow water habitat mapping
+- Enables broader habitat classification across vast coastal areas
+- Serves as a hands-on tool for interns and early-career scientists
 
 ---
 
-*By merging AI-driven image recognition with georeferenced sonar, this system sets the stage for fully automated seagrass mapping—where one day sonar alone, informed by AI, will unveil the seafloor’s hidden tapestry.*  
-
-
+*By merging AI-driven image recognition with georeferenced sonar, this system sets the stage for fully automated seagrass mapping—where one day sonar alone, informed by AI, will unveil important habitat on the seafloor
 
 
 ````markdown
@@ -74,8 +67,8 @@ pip install -r requirements.txt
 
 ### 3. Prepare Your Annotations File
 
-* Open `annotations.csv` in your favorite editor.
-* Ensure there’s a `timestamp` column formatted as `HH:MM:SS:FF` (hours\:minutes\:seconds\:frames).
+* Open `annotations.csv` in your favorite editor
+* Ensure there’s a `timestamp` column formatted as `HH:MM:SS:FF` (hours\:minutes\:seconds\:frames)
 
 ### 4. Extract Video Clips
 
